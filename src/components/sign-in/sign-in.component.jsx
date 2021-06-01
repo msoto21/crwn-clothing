@@ -28,8 +28,6 @@ class SignIn extends React.Component{
         } catch(error) {
             console.log(error);
         }
-
-       
     }
 
     handleChange = event => {
@@ -61,7 +59,7 @@ class SignIn extends React.Component{
                         required />
                     <div className='buttons'>
                         <CustomButton type="submit"> Sign in </CustomButton>
-                        <CustomButton onClick={signInWithGoogle} isGoogleSignIn>
+                        <CustomButton type="button" onClick={signInWithGoogle} isGoogleSignIn>
                             Sign in with Google
                         </CustomButton>
                     </div>

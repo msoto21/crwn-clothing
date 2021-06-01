@@ -1,6 +1,6 @@
 import firebase from 'firebase/app';
-import 'firebase/firestore';
-import 'firebase/auth';
+import 'firebase/firestore'; // for the Database
+import 'firebase/auth'; // for the autentication
 // import { withRouter } from 'react-router';
 
 const config = {
